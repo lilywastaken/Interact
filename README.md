@@ -1,6 +1,6 @@
 # Interract
 
-# An interraction program to interract with windows
+# An interaction program to interact with windows
 
 This tiny yet very useful tool allows you to do anything with any window on your computer:
 - Acquire RGB value of a pixel
@@ -27,5 +27,5 @@ sudo apt install libopencv-dev
 
 And run the command:
 
-g++ interract.cpp -o interract `pkg-config --cflags opencv4` `pkg-config --libs opencv4`
+g++ interact.cpp -o interact `pkg-config --cflags opencv4` `pkg-config --libs opencv4`
 
